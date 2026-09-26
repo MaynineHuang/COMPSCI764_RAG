@@ -1,1 +1,21 @@
+seed: 42
 
+project:
+  name: rag_sentence_sanitisation
+
+retrieval:
+  top_k: 5
+
+embedding:
+  model_name: null
+
+generator:
+  model_name: null
+  do_sample: false
+  max_new_tokens: 40
+
+sanitation:
+  semantic_threshold: null
+
+logging:
+  results_dir: results/
