@@ -7,7 +7,7 @@ retrieval:
   top_k: 5
 
 embedding:
-  model_name: null
+  model_name: sentence-transformers/all-MiniLM-L6-v2
 
 generator:
   model_name: null
